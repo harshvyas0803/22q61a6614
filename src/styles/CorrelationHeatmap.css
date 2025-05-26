@@ -1,0 +1,22 @@
+.heatmap-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.heatmap-page h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .heatmap-page {
+    padding: 10px;
+  }
+
+  .heatmap-page h2 {
+    font-size: 1.4rem;
+  }
+}
