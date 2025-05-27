@@ -1,4 +1,4 @@
-# aal1bb
+# 22q61a6614
 
 This repository contains solutions for two problem statements: **Stock Price Aggregation** and **Average Calculator**. Below is an overview of the project structure, features, limitations, and instructions for running the applications.
 
