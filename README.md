@@ -1,25 +1,21 @@
 # aal1bb
 
-This repository contains solutions to two problem statements: **Stock Price Aggregation** and **Average Calculator**.
+This repository contains solutions for two problem statements: **Stock Price Aggregation** and **Average Calculator**. Below is an overview of the project structure, features, limitations, and instructions for running the applications.
 
 ## 📁 Project Structure
 
+```
 aal1bb/
 ├── stock-aggregation/
-│ ├── public/
-│ ├── src/
-│ ├── screenshots/
-│ │ ├── desktop.png
-│ │ └── mobile.png
-│ └── ...
+│   ├── public/
+│   ├── src/
+│   ├── screenshots/
+│   │   ├── desktop.png
+│   │   └── mobile.png
+│   └── ...
 ├── average-calculator/
-│ └── ...
-
-markdown
-Copy
-Edit
-
----
+│   └── ...
+```
 
 ## 📈 Stock Price Aggregation
 
@@ -27,54 +23,60 @@ Edit
 
 ### 🔍 Overview
 
-A React-based frontend application that displays stock price charts and was intended to show correlation heatmaps.
-
-Due to the API token expiring on **May 16, 2025** (prior to the current submission date: **May 26, 2025**), and the inability to retrieve a new token as per the challenge guidelines, **mock data** has been used to simulate the API responses.
+A React-based frontend application designed to display stock price charts and was intended to include correlation heatmaps. Due to the API token expiring on **May 16, 2025** (prior to the submission date of **May 26, 2025**) and the inability to retrieve a new token as per challenge guidelines, **mock data** is used to simulate API responses.
 
 ### ✅ Features
 
 - Fetches and displays mock stock data and price history.
 - Renders a price history chart on the **Stock Page**.
 - Responsive design implemented using **pure CSS**.
-- Screenshots for both **desktop** and **mobile** views included.
+- Includes screenshots for both **desktop** and **mobile** views.
 
 ### ⚠️ Limitations
 
-- **Correlation heatmap** was not implemented due to time and API limitations.
-- API requests are simulated with mock data since the real API token has expired.
+- **Correlation heatmap** was not implemented due to time constraints and API limitations.
+- API requests are simulated with mock data due to the expired API token.
 
 ### 📸 Screenshots
 
 Screenshots are located in `stock-aggregation/screenshots/`:
 - `desktop.png`: Desktop view of the Stock Page.
-- `mobile.png`: Mobile view using responsive design.
+- `mobile.png`: Mobile view showcasing responsive design.
 
 ### 🚀 Running the App
 
-To run the app locally:
+To run the Stock Price Aggregation app locally:
 
-```bash
-cd stock-aggregation
-npm install
-npm start
-Open the app in your browser at http://localhost:3000. The app loads the Stock Page with mock data, defaulting to AMD stock.
+1. Navigate to the `stock-aggregation` folder:
+   ```bash
+   cd stock-aggregation
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the application:
+   ```bash
+   npm start
+   ```
+4. Open your browser and visit `http://localhost:3000`. The app loads the Stock Page with mock data, defaulting to AMD stock.
 
-🧮 Average Calculator
-Folder: average-calculator
+## 🧮 Average Calculator
 
-🔍 Overview
-This was intended to be a microservice to calculate the average of numbers fetched from a third-party API.
+**Folder:** `average-calculator`
 
-⚠️ Not Implemented
-Due to time constraints, this microservice has not been implemented. Placeholder structure is available in the folder.
+### 🔍 Overview
 
-📌 Final Submission Notes
-✅ Stock Page with chart using mock data
+This component was intended to be a microservice to calculate the average of numbers fetched from a third-party API.
 
-✅ Responsive design with desktop and mobile screenshots
+### ⚠️ Not Implemented
 
-✅ Clear project structure and documentation
+Due to time constraints, the Average Calculator microservice has not been implemented. A placeholder structure is available in the `average-calculator` folder.
 
-❌ Correlation Heatmap (not implemented)
+## 📌 Final Submission Notes
 
-❌ Average Calculator service (not implemented)
+- ✅ Stock Page with chart using mock data
+- ✅ Responsive design with desktop and mobile screenshots
+- ✅ Clear project structure and documentation
+- ❌ Correlation Heatmap (not implemented)
+- ❌ Average Calculator service (not implemented)
